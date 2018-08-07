@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+/* universal selectors */
+
+html {
+  font: 18px /1.4 Helvetica;
+}
+
+/* header */
+
+.header {
+  align-items: center;
+  background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+}
+
+.menu {
+  background-color: cadetblue;
+  color: white;
+  margin-top: 1rem;
+  width: 960px;
+}
+
+.navigation {
+
+}
