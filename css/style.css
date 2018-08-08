@@ -60,3 +60,37 @@ html {
   margin: 1.5rem 5rem;
   text-transform: uppercase;
 }
+
+/* main page */
+
+.main-page {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 960px;
+}
+
+#services {
+  display: flex;
+  margin-top: 3rem;
+}
+
+#services figure {
+  height: 8rem;
+  margin: 0 6rem;
+}
+
+.narrow {
+  width: 3.5rem;
+}
+
+.widepic {
+  width: 5rem;
+}
