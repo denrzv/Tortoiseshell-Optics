@@ -148,3 +148,31 @@ html {
   height: 1.5rem;
   margin: 4rem 1rem 4rem 4rem;
 }
+
+/* media */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu,
+  .main,
+  .footer {
+    width: 100%;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+
+  .slogan {
+    font-size: 1.33rem;
+    left: 14rem;
+    margin-top: 5rem;
+  }
+
+  .slogan h1 {
+    margin: 0.75rem 4rem;
+  }
+
+  .header {
+    height: 22rem;
+  }
+}
