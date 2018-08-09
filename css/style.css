@@ -64,9 +64,9 @@ html {
 /* main page */
 
 .main-page {
-  background-color: azure;
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .main {
@@ -77,20 +77,65 @@ html {
   width: 960px;
 }
 
-#services {
+#products {
   display: flex;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
-#services figure {
+#products figure {
   height: 8rem;
   margin: 0 6rem;
 }
 
-.narrow {
+#products figcaption {
+  margin: 1rem 0;
+}
+
+.narrowpic {
   width: 3.5rem;
 }
 
 .widepic {
   width: 5rem;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  width: 35%;
+}
+
+.service h1 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  text-transform: uppercase;
+  width: 10rem;
+}
+
+.dummy {
+  width: 5%;
+}
+
+.main {
+  margin-bottom: 5rem;
+}
+
+/* footer */
+
+.footer {
+  align-items: center;
+  background-color: azure;
+  display: flex;
+  width: 960px;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
 }
