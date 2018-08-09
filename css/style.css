@@ -10,6 +10,10 @@ html {
 
 /* header */
 
+#menu-item {
+  display: none;
+}
+
 .header {
   align-items: center;
   background-image: url(../images/glasses-bg.png);
@@ -150,6 +154,7 @@ html {
 }
 
 /* media */
+/* tablet version */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .menu,
@@ -174,5 +179,66 @@ html {
 
   .header {
     height: 22rem;
+  }
+}
+
+/* phone version */
+
+@media only screen and (max-width: 480px) {
+
+  .menu,
+  .main,
+  .footer,
+  .slogan {
+    width: 100%;
+  }
+
+  .header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .slogan {
+    margin-top: 9rem;
+    position: static;
+  }
+
+  .slogan h1 {
+    font-size: 1rem;
+    margin: 1rem 4rem;
+  }
+
+  .navigation li,
+  .dummy {
+    display: none;
+  }
+
+  #menu-item {
+    display: block;
+  }
+
+  #products {
+    margin: 3.77rem 0;
+  }
+
+  figcaption {
+    font-size: .77rem;
+  }
+
+  #products {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #products figure {
+    margin: 0;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  #services {
+    flex-direction: column;
   }
 }
