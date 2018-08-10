@@ -209,7 +209,8 @@ html {
   }
 
   .navigation li,
-  .dummy {
+  .dummy,
+  footer span {
     display: none;
   }
 
@@ -238,7 +239,25 @@ html {
     width: 100%;
   }
 
+  .service:first-of-type {
+    margin-bottom: 4rem;
+  }
+
+  .service h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .service p {
+    font-size: 0.77rem;
+  }
+
   #services {
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    justify-content: center;
   }
 }
